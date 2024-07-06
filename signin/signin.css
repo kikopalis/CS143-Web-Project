@@ -1,0 +1,108 @@
+body {
+    background-image: url("../images/bg-5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+    /* disable select or highlight */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+    animation: 1s;
+}
+
+#loginform {
+    margin-top: 50px !important;
+}
+
+.modal-content {
+    border-radius: 20px;
+    width: 19rem;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 1.75rem;
+}
+
+.danger {
+    box-shadow: 0 0 0 .2rem rgba(255,0,0,.25);
+    border-color: rgba(255,0,0,.5);
+}
+.danger-text {
+    color:  rgba(255,0,0,.8) !important;
+}
+
+#welcome-con {
+    display: grid;
+    justify-items: center;
+    width: 55%;
+    margin: 5rem 0;
+    padding: 2rem;
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.4); 
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.display-3 {
+    color: rgba(0, 0, 0, 1);
+    width: 100%;
+    border-radius: 50px;
+    transition: all 1s;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.modal-trigger {
+    background-color: none !important;
+    color: rgba(0, 0, 0, .8);
+    padding: .75rem 1.5rem;
+    margin-bottom: 5rem;
+    font-weight: 350;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow:  0 0 2px 4px rgb(32, 67, 221);
+    transition: all .6s;
+}
+.blockquote {
+    color: rgba(0, 0, 0, .5);
+    padding: 2%;
+    transition: all 1s;
+    margin-bottom: 2rem;
+}
+
+.display-3:hover {
+    color: rgb(255, 0, 0);
+    border-radius: 15px;
+    text-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5);
+}
+.modal-trigger:hover {
+    color: white;
+    background-color: royalblue;
+    padding: .75rem 1.5rem;
+    border-radius: 10px;
+    box-shadow:  0 0 0 10px rgb(42, 67, 179);
+}
+.blockquote:hover {
+    color: rgb(0, 255, 76);
+    z-index: 1;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+img.logo {
+    border-radius: 30px;
+    border-style: groove;
+    border-color: goldenrod;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width:1000px) {
+    #welcome-con {
+        width: auto;
+    }
+}
